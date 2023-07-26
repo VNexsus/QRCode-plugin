@@ -1,0 +1,92 @@
+{
+    "name" : "QR Code Generator",
+    "guid" : "asc.{D20D0768-6968-482B-8CEB-212D801030CF}",
+	"version": "1.1",
+
+    "variations" : [
+        {
+            "description" : "QR Code Generator",
+            "url"         : "index.html",
+
+            "icons"           : ["resources/img/light/icon.png", "resources/img/light/icon@2x.png"],
+			"icons2": [
+				{
+					"style" : "light",
+					
+					"100%": {
+						"normal": "resources/img/light/icon.png"
+					},
+					"125%": {
+						"normal": "resources/img/light/icon@1.25x.png"
+					},
+					"150%": {
+						"normal": "resources/img/light/icon@1.5x.png"
+					},
+					"175%": {
+						"normal": "resources/img/light/icon@1.75x.png"
+					},
+					"200%": {
+						"normal": "resources/img/light/icon@2x.png"
+					}
+				},
+				{
+					"style" : "dark",
+					
+					"100%": {
+						"normal": "resources/img/dark/icon.png"
+					},
+					"125%": {
+						"normal": "resources/img/dark/icon@1.25x.png"
+					},
+					"150%": {
+						"normal": "resources/img/dark/icon@1.5x.png"
+					},
+					"175%": {
+						"normal": "resources/img/dark/icon@1.75x.png"
+					},
+					"200%": {
+						"normal": "resources/img/dark/icon@2x.png"
+					}
+				}
+			],
+            "isViewer"        : true,
+            "EditorsSupport"  : ["word", "cell", "slide"],
+
+            "isVisual"        : true,
+            "isModal"         : true,
+            "isInsideMode"    : false,
+
+            "initDataType"    : "ole",
+            "initData"        : "",
+
+            "isUpdateOleOnResize" : false,
+
+            "buttons"        : [
+                {
+                    "text": "Insert Text",
+                    "primary": true,
+                    "textLocale": {
+                        "ru": "Вставить",
+                        "fr": "Insérer",
+                        "es": "Insertar",
+                        "de": "Einfügen"
+                    }
+                },
+                {
+                    "text": "Cancel",
+                    "primary": false,
+                    "textLocale": {
+                        "ru": "Отмена",
+                        "fr": "Annuler",
+                        "es": "Cancelar",
+                        "de": "Abbrechen"
+                    }
+                }
+			],
+			
+			"size": [ 590, 300 ],
+			
+			"initOnSelectionChanged": true
+        }
+    ]
+}
